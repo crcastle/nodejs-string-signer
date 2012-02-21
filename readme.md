@@ -5,8 +5,10 @@
 
 ## Install
 Requires
+
 * Node.js >= 0.6.x
 * npm
+
 ###### Node Package Manager
 ```
 $ npm install git://github.com/crcastle/nodejs-string-signer.git
