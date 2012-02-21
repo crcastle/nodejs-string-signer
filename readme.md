@@ -29,7 +29,7 @@ var secret = 's3cr3t';
 
 var signature = stringSigner.getSignature(stringToBeSigned, secret);
 ```
-`signature` is a base64 URL encoded hmac256 hash of `stringToBeSigned`.
+`signature` is a base64 URL encoded hmac256 hash of `message`.
 ##### Verify a signature
 ```
 var stringSigner = require('string-signer');
