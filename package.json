@@ -1,0 +1,49 @@
+{
+  "name": "string-signer",
+  "preferGlobal": "false",
+  "description": "Generate or verify an HMAC SHA-256 signature for an arbitrary string.",
+  "version": "1.1.0",
+  "keywords": [
+    "hmac",
+    "sha",
+    "signature",
+    "sign",
+    "authentication"
+  ],
+  "homepage": "https://github.com/crcastle/nodejs-string-signer",
+  "author": {
+    "name": "Chris Castle",
+    "email": "github@crc.io",
+    "url": "https://github.com/crcastle"
+  },
+  "contributors": [
+    {
+      "name": "Dylan Carney",
+      "email": "dcarney@gmail.com",
+      "url": "https://github.com/dcarney"
+    }
+  ],
+  "bin": {
+  },
+  "scripts": { "test": "NODE_PATH=./lib mocha --ui exports" },
+  "main": "lib/string-signer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crcastle/nodejs-string-signer"
+  },
+  "bugs": {
+    "url": "https://github.com/crcastle/nodejs-string-signer/issues"
+  },
+  "dependencies": {
+    "b64url": "1.0.x",
+    "makeerror": "1.0.x"
+  },
+  "noAnalyze": true,
+  "devDependencies": {
+    "mocha": "0.12.x"
+  },
+  "bundleDependencies": [
+  ],
+  "license": "unlicense",
+  "engine": { "node": "0.6.x" }
+}
