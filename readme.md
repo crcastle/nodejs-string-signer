@@ -34,17 +34,17 @@ var secret = 's3cr3t';
 var isValid = stringSigner.isSignatureValid(signature, message, secret);
 ```
 `isValid` will be either `true` or `false`.
-### Run tests
+## Run tests
 ```
 $ npm test
 ```
-### Issues
+## Issues
 Create an [issue](https://github.com/crcastle/nodejs-string-signer.git) or make a pull request.
-### Credit
+## Credit
 * Loosely based on [nshah](https://github.com/nshah)'s [nodejs-signed-request](https://github.com/nshah/nodejs-signed-request) library
 * Contributions from [dcarney](https://github.com/dcarney)
 
-### License
+## License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
