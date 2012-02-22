@@ -48,7 +48,7 @@ $ npm test
 ## Issues
 Create an [issue](https://github.com/crcastle/nodejs-string-signer.git) or make a pull request.
 ## Credit
-* Loosely based on [nshah](https://github.com/nshah)'s [nodejs-signed-request](https://github.com/nshah/nodejs-signed-request) library
+* Based on [nshah](https://github.com/nshah)'s [nodejs-signed-request](https://github.com/nshah/nodejs-signed-request) library ([Apache licensed](http://www.apache.org/licenses/LICENSE-2.0.html))
 * Contributions from [dcarney](https://github.com/dcarney)
 
 ## License
