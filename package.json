@@ -2,7 +2,7 @@
   "name": "string-signer",
   "preferGlobal": "false",
   "description": "Generate or verify an HMAC SHA-256 signature for an arbitrary string.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "keywords": [
     "hmac",
     "sha",
