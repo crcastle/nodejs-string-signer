@@ -29,7 +29,7 @@ var secret = 's3cr3t';
 
 var signature = stringSigner.getSignature(stringToBeSigned, secret);
 ```
-`signature` is a base64 URL encoded hmac256 hash of `message`.
+`signature` is a string that is the hex representation of the hmac256 hash of `message`.  You can change this from hex to either binary or base64 within the lib/string-signer.js file.  At some point I'll make this a configuration parameter instead of hard-coding it in the file.
 ##### Verify a signature
 ```
 var stringSigner = require('string-signer');
@@ -41,6 +41,7 @@ var secret = 's3cr3t';
 var isValid = stringSigner.isSignatureValid(signature, message, secret);
 ```
 `isValid` will be either `true` or `false`.
+
 ## Run tests
 ```
 $ npm test
