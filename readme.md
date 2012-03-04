@@ -29,16 +29,16 @@ var secret = 's3cr3t';
 
 var signature = stringSigner.getSignature(stringToBeSigned, secret);
 ```
-`signature` is a string that is the hex representation of the hmac256 hash of `message`.  You can change this from hex to either binary or base64 within the lib/string-signer.js file.  At some point I'll make this a configuration parameter instead of hard-coding it in the file.
+`signature` will be a string that is the hex representation of the hmac256 hash of `message`.  You can change this from hex to either binary or base64 within the lib/string-signer.js file.  At some point I'll make this a configuration parameter instead of hard-coding it in the file.
 ##### Verify a signature
 ```
 var stringSigner = require('string-signer');
 
 var message = 'this is an official message. it must not be tampered with!';
-var signature = 'sMUxfj43su9DqN3Nxy74wCcGtMNnv3uQTF6NQ9OqNH8';
+var signature = 'b0319d11150e57d6dd8894b7d447f1f073e65fe85db1a83221f91dd3d4fecfdb';
 var secret = 's3cr3t';
 
-var isValid = stringSigner.isSignatureValid(signature, message, secret);
+var isValid = stringSigner.isValidSignature(signature, message, secret);
 ```
 `isValid` will be either `true` or `false`.
 
