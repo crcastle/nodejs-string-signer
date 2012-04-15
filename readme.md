@@ -1,4 +1,4 @@
-# string-signer
+# string-signer [![Build Status](https://secure.travis-ci.org/crcastle/nodejs-string-signer.png?branch=master)](http://travis-ci.org/crcastle/nodejs-string-signer)
 *A node.js cryptographic string signing library.*
 
 ---
@@ -67,4 +67,4 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 
 For more information, please refer to <http://unlicense.org/>
 
-![unlicense](http://unlicense.org/pd-icon.png "unlicense")
+![unlicense](http://commons.wikimedia.org/wiki/File:PD-icon.svg "unlicense")
