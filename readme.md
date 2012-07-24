@@ -67,4 +67,4 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 
 For more information, please refer to <http://unlicense.org/>
 
-![unlicense](http://commons.wikimedia.org/wiki/File:PD-icon.svg "unlicense")
+![unlicense](http://unlicense.org/pd-icon.png "unlicense")
